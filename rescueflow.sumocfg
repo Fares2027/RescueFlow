@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+        <net-file value="rescueflow.net.xml"/>
+        <route-files value="rescueflow.rou.xml,cross_traffic.rou.xml"/>
+    </input>
+</configuration>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes>
+    <!-- Vehicle types -->
+    <vType id="ambulance" vClass="emergency" color="yellow"/>
+    <vType id="car" vClass="passenger" color="blue"/>
+
+    <!-- Existing route -->
+    <route id="r_0" edges="-E3 E1"/>
+
+    <!-- Regular traffic: one car every 4 seconds -->
+    <flow id="regular_traffic"
+          type="car"
+          route="r_0"
+          begin="0"
+          end="90"
+          period="4"/>
+
+    <!-- Ambulance arrives after traffic begins -->
+    <vehicle id="v_0"
+             type="ambulance"
+             depart="45"
+             route="r_0"/>
+</routes>

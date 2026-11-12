@@ -1,0 +1,19 @@
+
+<routes>
+    <vType id="cross_car" vClass="passenger" color="red"/>
+
+    <!-- North to South -->
+    <route id="north_south" edges="-E0 E2"/>
+
+    <!-- South to North -->
+    <route id="south_north" edges="-E2 E0"/>
+
+    <!-- Regular traffic -->
+    <flow id="flow_ns" type="cross_car"
+          route="north_south"
+          begin="0" end="90" period="5"/>
+
+    <flow id="flow_sn" type="cross_car"
+          route="south_north"
+          begin="0" end="90" period="5"/>
+</routes>
