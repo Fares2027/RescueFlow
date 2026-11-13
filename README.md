@@ -12,9 +12,8 @@ The project demonstrates emergency-vehicle detection within the simulation, sign
 
 **SUMO simulation**
 
-[Watch the SUMO simulation](media/sumo_simulation.mp4)
+[Watch the SUMO simulation](Recording%20SUMO%20RescueFlow%20Simulation.mp4)
 
-*Add your simulation video under `media/` using this filename, or update the link to match your file.*
 
 ## Features
 
